@@ -1,5 +1,5 @@
 import Test from "./Test";
-import WebsocketProvider from "./websocket.component";
+import { WebsocketProvider } from "@hooksplace/socketio";
 
 function App() {
   return (

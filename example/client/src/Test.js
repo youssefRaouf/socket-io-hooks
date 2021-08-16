@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useWebSocket, useWebSocketEmitter, useWebSocketSubscriber } from './hooks';
+import React from 'react';
+import { useWebSocketEmitter, useWebSocketSubscriber } from '@hooksplace/socketio';
 
 
 const Test = () => {
