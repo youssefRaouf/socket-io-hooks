@@ -1,0 +1,19 @@
+{
+    "name": "@hooksplace/socketio",
+    "version": "1.0.0",
+    "description": "",
+    "type": "commonjs",
+    "main": "./hooks.js",
+    "exports": {
+        "./package.json": "./package.json",
+        "./hooks.js": "./hooks.js",
+        "./WebsocketProvider.js": "./WebsocketProvider.js"
+    },
+    "keywords": [],
+    "author": "Youssef Tadrous",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^17.0.2",
+        "socket.io-client": "^4.1.3"
+    }
+}
